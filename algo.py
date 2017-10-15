@@ -70,8 +70,8 @@ speed = dict([
 ])
 
 # in seconds
-fast = 60 * 5 -1
-slow = 60 * 15 -1
+fast = 60 * 1 -1
+slow = 60 * 5 -1
 refresh_rate = dict([
     ('Axiom',           slow),
     ('Blake256r14',     slow),
