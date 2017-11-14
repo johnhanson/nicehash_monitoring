@@ -34,25 +34,27 @@ algo = dict([
 ])
 
 # got this from https://www.nicehash.com/profitability-calculator
+# note: nicehash is a butt and doesn't signify a change in the units by a bump in the API version
+# have to fucking check twitter. goddamn.
 # couldn't find it in the API, except in the stats.provider.ex call
-# might be wrong
+# ~~might be wrong~~ probably is wrong. no way to verify for 100% sure.
 speed = dict([
-    (0, 'MH/s'),
+    (0, 'TH/s'),
     (1, 'TH/s'),
-    (2, 'MH/s'),
+    (2, 'TH/s'),
     (3, 'MH/s'),
     (4, 'MH/s'),
     (5, 'MH/s'),
     (6, 'MH/s'),
     (7, 'MH/s'),
     (8, 'MH/s'),
-    (9, 'MH/s'),
+    (9, 'TH/s'),
     (10, 'MH/s'),
     (11, 'MH/s'),
     (12, 'MH/s'),
     (13, 'kH/s'),
-    (14, 'MH/s'),
-    (15, 'kH/s'),
+    (14, 'TH/s'),
+    (15, 'TH/s'),
     (16, 'GH/s'),
     (17, 'GH/s'),
     (18, 'GH/s'),
